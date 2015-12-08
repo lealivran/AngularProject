@@ -1,0 +1,8 @@
+<div>
+  <ul>
+    <li data-ng-repeat="movie in ::vm.topmovies track by $index">
+      <h2>{{ ::movie.original_title }}</h2>
+      <a href ui-sref="root.movieDetails({id: movie.id})"><img src="https://image.tmdb.org/t/p/w154{{::movie.poster_path}}" /></a>
+    </li>
+  </ul>
+</div>
