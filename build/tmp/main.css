@@ -70,3 +70,5 @@
         transform: translateY(8px);
         background-color: #FFF;
         transition: 0.5s; }
+  .header-menu .search {
+    padding: 27px; }
